@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.main-header {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+
+.main-nav__items {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    position: relative;
+    
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 ;
+    text-decoration: none;
+ }
+ 
+.main-nav__item:hover ,
+.main-nav__item:active   {
+    color: black;
+    background: white;
+
+}
+
+
+.main-nav__item a:hover ,
+.main-nav__item a:active {
+    color: black !important;
+    background-color: white;  
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: white;
+ }
+
+/* .main-header__glass{
+    position: absolute;
+    right: 2px;
+    top: 13px;
+
+ } */
+
+
+  #first-background {
+    background-image: url(images/ny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    vertical-align: middle;
+
+  }
+
+ 
+
+  .first-background-h1  {
+    position: absolute;
+    bottom: 40px;
+    left: 600px;
+    color:white ;
+    
+  }
+
+  .first-background-p  {
+    position: absolute;
+    bottom: 10px;
+    left: 510px;
+    color:white ;
+
+   
+ }
+
+
+ /* second section */
+
+
+
+ .second-section {
+    position: relative;
+    height: 400px;
+ }
+
+ .second-section h1{
+    position: absolute;
+    left: 590px;
+    top: 60px;
+    letter-spacing:4px
+ }
+
+
+ .love-music {
+    position: absolute;
+    left: 610px;
+    top: 110px;
+    color: gray;
+    font-style: italic;
+
+ }
+
+
+
+ .second-section-p {
+    position: absolute;
+    left: 200px;
+    top: 170px;
+    vertical-align: middle;
+    text-align: center;
+    width: 60%;
+    text-align: justify;
+    
+ }
+
+
+ .section-images {
+    position: relative;
+    height: 300px;
+    
+ 
+ }
+
+ .section-images ul {
+     position: absolute;
+     left: 200px;
+ }
+
+ .section-images li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 ;
+    text-align: center;
+    
+ }
+
+ .section-images img {
+    width: 60%;
+ }
+ 
+ .section-images p {
+    text-align: center;
+ }
+
+/* tour section */
+
+
+.tour-section{
+   height: 800px;
+   background-color: black;
+   color: white;
+   position: relative;
+}
+
+.tour-section >h1{
+   letter-spacing: 4px;
+   position: absolute;
+   left: 550px;
+   top: 40px;
+}
+
+.tour-section >p {
+   position: absolute;
+   top: 110px;
+   left: 530px;
+   color: #b8b7b7;
+   font-style: italic;
+}
+
+.tour-section li{
+   list-style: none;
+}
+
+.reservations{
+   background: white;
+   color:gray ;
+   position: relative;
+   width: 55%;
+   height: 110px;
+   left: 320px;
+   top: 210px;
+   padding-left: 0;
+}
+
+
+
+.reservations li{
+   border-bottom: 1px solid #ddd;
+   width: 100%;
+   padding: 8px 16px;
+}
+.reservations  li:nth-child(3){
+   border-bottom: none;
+}
+
+.sold{
+   background-color:#f44336;
+   color: #fff ;
+   margin-left: 15px;
+   padding: 2px 2px;
+}
+
+.number3{
+   background: black;
+   color: white;
+   border-radius: 50%;
+   padding-left: 5px;
+   padding-right: 5px;
+   float: right;
+}
+
+.travel-cards{
+   position: absolute;
+   top: 350px;
+   left: 270px;
+   
+}
+
+.travel-cards li {
+   display: inline-block;
+   background: white;
+   width: 23%;
+   color: black;
+   margin-left: 5px;
+   height: 370px;
+}
+.travel-cards img{
+   height: 180px;
+   width: 100%;
+}
+
+.travel-cards img:hover,
+.travel-cards img:active{
+   opacity: 0.4;
+}
+
+.travel-cards h1{
+   font-size: 15px;
+   margin-left: 4px;
+   
+}
+
+.travel-cards .date{
+   color: #b3b1b1;
+   margin-left: 4px;
+}
+
+.travel-cards p{
+   margin-left: 5px;
+}
+
+.travel-cards button{
+   background: black;
+   color: white;
+   padding: 10px;
+   margin-left: 6px;
+   border: none;
+}
+
+.travel-cards button:hover,
+.travel-cards button:active{
+   background: #c9c8c8;
+   color: black;
+   cursor: pointer;
+
+}
+
+/* ******************** */
+
+.contact{
+   height: 500px;
+}
+
+.contact h1{
+   text-align: center;
+   letter-spacing: 4px;
+   margin-top: 60px;
+}
+
+.contact p{
+   text-align: center;
+   margin-top: 30px;
+   color: #a19f9f;
+   font-style: italic;
+}
+
+.info-form{
+   width: 100%;
+   display: inline-block;
+}
+.the-info{
+   display: inline-block;
+   width: 40%;
+   margin-bottom: 41px;
+}
+
+.the-info ul{
+   
+   margin-left: 150px;
+}
+
+.the-info li{
+   list-style: none;
+   margin-bottom: 5px;
+   font-size: 18px;
+}
+
+.the-form{
+   position: relative;
+   display: inline-block;
+   width: 40%;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+
+.name-email{
+   width: 100%;
+   
+}
+.name-email div{
+   display: inline-block;
+   width: 42%;
+}
+.the-message input{
+   width: 80%;
+   margin-top: 11px;
+}
+
+.contact input{
+   padding: 15px;
+}
+
+.contact button{
+   margin-top: 13px;
+   position: absolute;
+   left: 370px;
+   padding: 12px;
+   background: black;
+   color: white;
+   border: none;
+}
+
+.contact button:hover,
+.contact button:active{
+   background: #c9c8c8;
+   color: black;
+   cursor: pointer;
+}
+
+.map{
+   background: url(images/map.jpg);
+   background-size: 100% 100%;
+   height: 800px;
+
+
+}
